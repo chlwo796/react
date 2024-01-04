@@ -21,7 +21,7 @@ import { Error } from './components/Error';
 function App() {
   return (
     <div className="App">
-      <Header title="안녕하세요" onTest={function(){alert(1)}}></Header>
+      <Header title="안녕하세요11" onTest={function(){alert(1)}}></Header>
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<List/>}></Route>
